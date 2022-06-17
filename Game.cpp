@@ -47,4 +47,8 @@ int Game::MakeHomeRes(){
 
 }
 
+void Game::PrintRes(){
+    std::cout << " printing the summery of the game ";
+}
+
 

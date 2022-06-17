@@ -21,4 +21,5 @@ class Game{
         int add_bonus(double talent);
         int MakeHomeRes();
         int MakeAwayRes();
+        void PrintRes();
 };
