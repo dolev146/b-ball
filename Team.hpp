@@ -1,5 +1,12 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <random>
+#include <map>
+#include <iomanip>
+#include <random>
+#include <cmath>
+#include <algorithm>
 /**
  * @file Team.hpp
  * @author Aviad Gilboa
@@ -26,4 +33,6 @@ class Team{
         void updateStatistics(int BalancePoints, bool IsWinner);
         void print();
         std::string GetName() const;
+        double GetTalnt() const;
+        statistics& GetStatistic();
 }; 
