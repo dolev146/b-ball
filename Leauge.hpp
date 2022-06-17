@@ -1,12 +1,7 @@
 #pragma once
 #include "Game.hpp"
 #include "Schedule.hpp"
-#include <vector>
-#include <random>
-#include <map>
-#include <iomanip>
-#include <random>
-#include <cmath>
+
 
 /**
  * @file Leauge.hpp
@@ -16,9 +11,6 @@
  * All league has 20 Teams.
  * 
  */
-struct{
-
-}
 
 class League{
     private:

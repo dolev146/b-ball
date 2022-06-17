@@ -1,5 +1,12 @@
 #include <iostream>
 #include <string>
+#include <vector>
+#include <random>
+#include <map>
+#include <iomanip>
+#include <random>
+#include <cmath>
+#include <algorithm>
 /**
  * @file Team.hpp
  * @author Aviad Gilboa
