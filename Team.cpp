@@ -43,3 +43,11 @@ void Team::print(){
 std::string Team::GetName() const{
     return this->_name;
 }
+
+double Team::GetTalnt() const {
+    return this->_talent;
+}
+
+statistics& Team::GetStatistic(){
+    return this->_statistics;
+}

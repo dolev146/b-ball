@@ -1,4 +1,5 @@
 #include "Team.hpp"
+#include <chrono>
 
 /**
  * @file Game.hpp
@@ -12,8 +13,12 @@
 
 class Game{
     private:
-        Team Home;
-        Team Out;
+        Team _Home;
+        Team _Out;
+
     public:
         Game(const Team& Home,const Team& out);
+        int add_bonus(double talent);
+        int MakeHomeRes();
+        int MakeAwayRes();
 };

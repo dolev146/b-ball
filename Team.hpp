@@ -33,4 +33,6 @@ class Team{
         void updateStatistics(int BalancePoints, bool IsWinner);
         void print();
         std::string GetName() const;
+        double GetTalnt() const;
+        statistics& GetStatistic();
 }; 
