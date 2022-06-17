@@ -14,7 +14,6 @@ class Game{
     private:
         Team Home;
         Team Out;
-        int res;
     public:
         Game(const Team& Home,const Team& out);
 };
